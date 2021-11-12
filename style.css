@@ -14,7 +14,7 @@
 }
 .logo{
     width: 10%;
-    height: 2px;
+    height: 3px;
     color: thistle;
     padding: 10px;
 }
@@ -113,7 +113,7 @@ body{
     height: 80vh;
     /*background-color: blue;*/
     padding-top: 50px;
-    display: flex;
+    display: flex;/*makking on the same line*/
 }
 .book-sort{
     width: 50%;
@@ -181,22 +181,22 @@ select{
     }
     .contact-form{
         width: 80%;
-        height: 30vh;
+        height: 40vh;
         background: rgba(22, 21, 21, 0.568);
         margin: 15px 10px 0px 900px; 
         /* margin: auto; */
         padding: 20px;
         /* color: black; */
         margin-left: 100px;
-        display: flex;
+        /* display: flex; */
         color: white;
     }
     .telephone{ 
         width: 30%;
         height: 15vh;
-        background-color: lightgreen;
-        margin: 70px 10px 2px 5px; 
-        padding: 10px; 
+        background-color: rgb(7, 136, 7);
+        margin: 70px 10px 2px 100px; 
+        padding: 20px; 
         text-align: center;
         
     }
@@ -204,18 +204,20 @@ select{
         width: 30%;
         height: 15vh;
         background-color: goldenrod;
-        margin: 70px 10px 2px 20px; 
+        margin: 70px 70px 10px 500px; 
         padding: 10px; 
         text-align: center;
+        margin-top: -100px;
     }
     .message{ 
         width: 80%;
-        height: 70vh;
+        /* height: 70vh; */
         background: rgba(22, 21, 21, 0.568);
         margin: 0px 10px 0px 900px; 
         padding: 20px;
         margin-left: 100px;
-        text-align: center;
+        /* text-align: center; */
+        
         
     }
     .message input{
@@ -238,7 +240,7 @@ select{
         padding: 15px;
         float: right;
         margin-top: 10px;
-        margin: 10px 150px 0px 0px ;
+        margin: 10px 150px 0px 10px ;
     }
     .message button{
         
@@ -254,13 +256,19 @@ select{
     
     }
     
-    .messag{
+    /*.messag{
         width: 50%;
         height: 30vh;
         background-color: white;
         margin: 0px 10px 0px 15px;
         float: right;
+    }*/
+    .text{
+        color: white;
+        /* text-align: center; */
+        margin-left: 450px;
     }
+
     .names{
         font-size: 40px;
         font-weight: bold;
@@ -269,24 +277,24 @@ select{
 
     .Aboutus-form{
         width: 95%;
-        height: 200vh;
+        height: 100vh;
         background-color:rgba(255, 235, 205, 0.644) ;
         margin-left: 80px;
-        padding: 20px;
+        padding: 200px;
+        padding-top: 10px;
         
     
     }
-    .backgroungimg{
+    /*.backgroungimg{
         width: 60%;
         height: 5vh;
-        /* background-image: url(./image/shu-Rwanda-Gisovu-Tea.jpg) ; */
+        background-image: url(./image/shu-Rwanda-Gisovu-Tea.jpg) ;
         margin: 10px 0px 0px 200px;
         
-    }
-    #back{
-        margin-left: 20px;
-        color: white;
-    }
+    }*/
+    
+        
+    
     .signin-form{
         width: 40%;
         height: 50vh;
@@ -312,6 +320,27 @@ select{
         /* margin-top: 12px; */
 
     }
+    .gallerymain{
 
     
+        width:70%;
+        background-color: rgba(7, 167, 7, 0.774);
+        padding: 20px;
+        text-align: center;
+        margin: 10px 0px 0px 200px;
+     
     
+    }
+    
+    .galleryImage{
+         width:100%;
+         display: flex;  
+         flex-wrap: wrap;
+
+    }
+
+    .galleryImage img{
+        width: 45%;
+        margin: 10px;
+        height: auto;
+    }
